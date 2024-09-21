@@ -31,3 +31,11 @@ friends = ["Ivan","Ana","Marko","Viktoria","Bro","Veky"]
 # random_index = random.randint(0,4)
 # print(friends[random_index])
 
+## nested listes
+
+list_1 = ["123","456","789"]
+list_2 = ["aba","caba"]
+
+list_3 = [list_1,list_2]
+
+print(list_3)
